@@ -1,0 +1,41 @@
+body {
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  background: gainsboro;
+}
+
+.title {
+  font: 2rem bold;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.accordion {
+  color: black;
+  border: none;
+  font-size: 16px;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+p {
+  font-size: 20px;
+}

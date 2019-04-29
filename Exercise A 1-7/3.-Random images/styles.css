@@ -1,0 +1,14 @@
+.classImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+#button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

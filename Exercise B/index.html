@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="main">
+
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">Filter by age &#x2193;
+        </button>
+        <ul class="dropdown-menu checkbox-menu allow-focus">
+          <li>
+            <label>Younger than 30</label>
+            <input type="checkbox" name="filter" value="younger" />
+          </li>
+          <li>
+            <label>Older than 30</label>
+            <input type="checkbox" name="filter" value="older" />
+          </li>
+        </ul>
+      </div>
+      <form name="FilterForm" id="FilterForm" action="" method="">
+        <input type="checkbox" name="filter" value="mal" />
+        <label>Male</label>
+        <input type="checkbox" name="filter" value="fem" />
+        <label>Female</label>
+      </form>
+
+
+      <table border="1" id="StatusTable">
+
+        <tr class="header">
+          <th>Name</th>
+          <th>Age</th>
+          <th>Gender</th>
+        </tr>
+        <tbody>
+          <tr class="mal younger">
+            <td>Paul</td>
+            <td>24</td>
+            <td class="fem">Male</td>
+          </tr>
+          <tr class="mal younger">
+            <td>Raul</td>
+            <td>28</td>
+            <td class="fem">Male</td>
+          </tr>
+          <tr class="fem younger">
+            <td>Mari</td>
+            <td>28</td>
+            <td class="fem">Female</td>
+          </tr>
+          <tr class="mal older">
+            <td>Alex</td>
+            <td>33</td>
+            <td class="fem">Male</td>
+          </tr>
+          <tr class="fem older">
+            <td>Violeta</td>
+            <td class="older">31</td>
+            <td class="fem">Female</td>
+          </tr>
+          <tr class="fem younger">
+            <td>Nadia</td>
+            <td class="younger">24</td>
+            <td class="fem">Female</td>
+          </tr>
+
+        </tbody>
+
+      </table>
+
+    </div>
+
+  </div>
+
+  <script src="data.js"></script>
+
+</body></html>
+
+
+

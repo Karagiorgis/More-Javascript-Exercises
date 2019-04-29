@@ -1,0 +1,41 @@
+td {
+  font-size: 20px;
+  height: 30px;
+  border: 2px solid black;
+  padding-left: 4px;
+}
+
+th {
+  font-size: 20px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#tab {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+body {
+  padding: 15px;
+}
+
+.main {
+  font-size: 26px;
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-menu li label {
+  padding-left:4px;
+  color: black;
+}
+
+.checkbox-menu li input {
+  margin: 0px 5px;
+  top: 2px;
+  position: relative;
+}
+
+
